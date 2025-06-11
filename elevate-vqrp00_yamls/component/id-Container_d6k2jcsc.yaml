@@ -1,0 +1,16 @@
+name: edicao_exercicio
+description: ""
+params:
+  oszp3n:
+    identifier:
+      name: idrefexercicio
+      key: oszp3n
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+node:
+  key: Container_d6k2jcsc

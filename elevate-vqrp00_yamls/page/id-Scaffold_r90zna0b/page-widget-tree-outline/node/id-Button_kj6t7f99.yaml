@@ -1,0 +1,47 @@
+key: Button_kj6t7f99
+type: Button
+props:
+  button:
+    text:
+      fontFamily: Plus Jakarta Sans
+      themeStyle: TITLE_MEDIUM
+      isCustomFont: false
+      textValue:
+        inputValue: Entrar
+      colorValue:
+        inputValue:
+          themeColor: WARNING
+      fontWeightValue:
+        inputValue: w700
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 12
+    innerPadding:
+      type: FF_PADDING_ALL
+      allValue:
+        inputValue: 8
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 50
+    elevationValue:
+      inputValue: 2
+    fillColorValue:
+      inputValue:
+        value: "4292613180"
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  opacity:
+    opacityValue:
+      inputValue: 1

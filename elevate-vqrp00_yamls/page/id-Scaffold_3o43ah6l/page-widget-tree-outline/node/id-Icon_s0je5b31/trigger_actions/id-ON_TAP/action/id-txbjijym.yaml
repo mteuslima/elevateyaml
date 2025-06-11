@@ -1,0 +1,12 @@
+database:
+  deleteDocument:
+    reference:
+      source: FIRESTORE_REQUEST
+      baseVariable:
+        firestore: {}
+      operations:
+        - accessDocumentField:
+            documentProperty: REFERENCE
+      nodeKeyRef:
+        key: ListView_h8yscx6p
+key: txbjijym

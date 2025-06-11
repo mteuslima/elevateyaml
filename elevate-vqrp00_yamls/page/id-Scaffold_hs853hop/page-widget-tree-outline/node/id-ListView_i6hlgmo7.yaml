@@ -1,0 +1,39 @@
+key: ListView_i6hlgmo7
+type: ListView
+props:
+  listView:
+    axis: FF_AXIS_VERTICAL
+    primary: false
+    listSpacing:
+      applyStartEndSpace: false
+    shrinkWrapValue:
+      inputValue: true
+  queryLoadingWidget:
+    loadingWidget: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+  firestore:
+    collectionIdentifier:
+      name: treinos
+      key: rwrr6t2d
+    hideOnEmpty: false
+    filterOnNull: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: usuarioRef
+            relation: EQUAL_TO
+            variable:
+              source: FIREBASE_AUTH_USER
+              baseVariable:
+                auth:
+                  property: USER_REFERENCE
+  requestManagerSettings: {}

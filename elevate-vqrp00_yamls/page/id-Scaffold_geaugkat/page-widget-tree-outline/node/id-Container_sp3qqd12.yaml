@@ -1,0 +1,66 @@
+key: Container_sp3qqd12
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 80
+          mostRecentInputValue: 80
+      height:
+        pixelsValue:
+          inputValue: 40
+          mostRecentInputValue: 40
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 20
+          mostRecentInputValue: 20
+        topRightValue:
+          inputValue: 20
+          mostRecentInputValue: 20
+        bottomLeftValue:
+          inputValue: 20
+          mostRecentInputValue: 20
+        bottomRightValue:
+          inputValue: 20
+          mostRecentInputValue: 20
+        allValue:
+          inputValue: 20
+          mostRecentInputValue: 20
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: PRIMARY_BACKGROUND
+      borderColorValue:
+        inputValue:
+          themeColor: ALTERNATE
+        mostRecentInputValue:
+          themeColor: ALTERNATE
+      borderWidthValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+    maxDimensions: {}
+    minDimensions: {}
+  padding:
+    type: FF_PADDING_ONLY
+    rightValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  platformType: MATERIAL
+  responsiveVisibility:
+    phoneHidden: false
+    tabletHidden: false
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: lightDark_small
+parameterValues: {}
+valueKey:
+  inputValue: {}

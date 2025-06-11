@@ -1,0 +1,26 @@
+key: Icon_mgzjhb87
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: ACCENT_2
+    iconDataValue:
+      inputValue:
+        codePoint: 58513
+        family: MaterialIcons
+        matchTextDirection: false
+        name: person
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

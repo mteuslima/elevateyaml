@@ -1,0 +1,6 @@
+key: Column_q930z8fa
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_space_between
+    primary: true

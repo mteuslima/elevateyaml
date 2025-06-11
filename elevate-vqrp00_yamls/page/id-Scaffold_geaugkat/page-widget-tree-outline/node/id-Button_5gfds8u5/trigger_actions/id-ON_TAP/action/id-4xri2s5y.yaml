@@ -1,0 +1,27 @@
+bottomSheet:
+  passedParameters:
+    parameterPasses:
+      b0zk9f:
+        paramIdentifier:
+          name: idrefperfil
+          key: b0zk9f
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: USER_REFERENCE
+    widgetClassNodeKeyRef:
+      key: Container_xt7ytbiz
+  dimensions:
+    height:
+      percentOfScreenSizeValue:
+        inputValue: 90
+  isDismiss: false
+  backgroundColor:
+    inputValue:
+      color:
+        value: "0"
+  barrierColor: {}
+  componentClassNodeKeyRef:
+    key: Container_xt7ytbiz
+key: 4xri2s5y

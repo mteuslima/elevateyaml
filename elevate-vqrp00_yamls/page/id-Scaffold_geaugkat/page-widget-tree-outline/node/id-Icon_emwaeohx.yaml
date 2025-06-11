@@ -1,0 +1,49 @@
+key: Icon_emwaeohx
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    iconDataValue:
+      inputValue:
+        codePoint: 983726
+        family: MaterialIcons
+        matchTextDirection: false
+        name: wb_sunny_rounded
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+    topValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    rightValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    bottomValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  alignment:
+    xValue:
+      inputValue: -0.9
+      mostRecentInputValue: -0.9
+    yValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  platformType: MATERIAL
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: iconDark
+parameterValues: {}
+valueKey:
+  inputValue: {}

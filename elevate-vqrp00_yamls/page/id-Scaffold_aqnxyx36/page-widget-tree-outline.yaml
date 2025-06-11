@@ -1,0 +1,61 @@
+node:
+  key: Scaffold_aqnxyx36
+  body:
+    key: Column_b20u269f
+    children:
+      - key: Container_i82yv81e
+      - key: Icon_o1dfxw0c
+      - key: Text_2hiztbji
+      - key: Container_he1704vw
+        children:
+          - key: Row_nktg3kjr
+            children:
+              - key: Container_8irdr8n7
+                children:
+                  - key: Image_sun8z6fj
+              - key: Container_teqoesvv
+                children:
+                  - key: Column_ptetvwni
+                    children:
+                      - key: Text_gd0m4477
+                      - key: Text_dph2brpb
+                      - key: Text_wl3rshlf
+      - key: Container_b6pg4dfz
+        children:
+          - key: Column_7kokubg7
+            children:
+              - key: ListView_fof949vi
+                children:
+                  - key: Container_gqth0cxf
+                    children:
+                      - key: Row_bjkozv4w
+                        children:
+                          - key: Container_i6ftwm3i
+                            children:
+                              - key: Image_oqn3l3v4
+                          - key: Container_9rhc23dz
+                            children:
+                              - key: Row_4lwvg2lh
+                                children:
+                                  - key: Column_t7z1xvnl
+                                    children:
+                                      - key: Text_8g86ui91
+                                      - key: Text_3fjs2n9s
+                                      - key: Text_s36zh1ab
+                                      - key: Text_s3zjcvqp
+                                      - key: Text_0jk11gi0
+                                  - key: Checkbox_zmz81ef7
+      - key: Button_nbklsrkz
+      - key: Container_ekealuk0
+        children:
+          - key: Row_vqxanper
+            children:
+              - key: Container_a38lygxt
+                children:
+                  - key: Icon_tv3o5orw
+              - key: Container_0kp89ui2
+                children:
+                  - key: Icon_drac6j3s
+              - key: Container_dz3c103j
+                children:
+                  - key: Icon_hn0kbib0

@@ -1,0 +1,65 @@
+key: TextField_cjklwidn
+type: TextField
+props:
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  textField:
+    textStyle:
+      fontFamily: Plus Jakarta Sans
+      themeStyle: BODY_MEDIUM
+      isCustomFont: false
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_TEXT
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 12
+      hintStyle:
+        fontFamily: Plus Jakarta Sans
+        themeStyle: BODY_MEDIUM
+        isCustomFont: false
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY_TEXT
+      hintText:
+        textValue:
+          inputValue: Escolher a categoria
+      borderColorValue:
+        inputValue:
+          themeColor: ALTERNATE
+      filledValue:
+        inputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: WARNING
+      borderWidthValue:
+        inputValue: 1
+    keyboardType: EMAIL_ADDRESS
+    width:
+      percentOfScreenSizeValue:
+        inputValue: 100
+    submitType: NEXT
+    maxLinesValue:
+      inputValue: 1
+    autofocusValue:
+      inputValue: false
+    trailingIconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 22
+        colorValue:
+          inputValue:
+            value: "4282335039"
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: category
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,23 @@
+navigate:
+  allowBack: true
+  passedParameters:
+    parameterPasses:
+      zr65et:
+        paramIdentifier:
+          name: treinoid
+          key: zr65et
+        variable:
+          source: FIRESTORE_REQUEST
+          baseVariable:
+            firestore: {}
+          operations:
+            - accessDocumentField:
+                documentProperty: REFERENCE
+          nodeKeyRef:
+            key: ListView_i6hlgmo7
+    widgetClassNodeKeyRef:
+      key: Scaffold_aqnxyx36
+  isNavigateBack: false
+  pageNodeKeyRef:
+    key: Scaffold_aqnxyx36
+key: nfizt46x

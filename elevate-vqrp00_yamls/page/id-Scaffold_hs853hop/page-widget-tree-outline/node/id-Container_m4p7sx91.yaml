@@ -1,0 +1,23 @@
+key: Container_m4p7sx91
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 130
+      height:
+        pixelsValue:
+          inputValue: 100
+    boxDecoration:
+      colorValue:
+        inputValue:
+          themeColor: ACCENT_3
+    animationDurationValue:
+      inputValue: 100
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

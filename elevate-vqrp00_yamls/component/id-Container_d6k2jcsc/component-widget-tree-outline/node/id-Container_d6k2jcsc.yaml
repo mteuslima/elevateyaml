@@ -1,0 +1,10 @@
+key: Container_d6k2jcsc
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+name: edicao_exercicio
+isDummyRoot: true

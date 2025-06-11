@@ -1,0 +1,37 @@
+key: Stack_syd01oa8
+type: Stack
+props:
+  padding:
+    type: FF_PADDING_ALL
+    leftValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    topValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    rightValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    bottomValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    allValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+  stack:
+    dimensions: {}
+    childAlignment:
+      xValue:
+        inputValue: 0
+        mostRecentInputValue: 0
+      yValue:
+        inputValue: 0
+        mostRecentInputValue: 0
+  platformType: MATERIAL
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+parameterValues: {}
+valueKey: {}

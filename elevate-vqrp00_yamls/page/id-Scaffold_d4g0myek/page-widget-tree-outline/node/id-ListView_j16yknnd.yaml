@@ -1,0 +1,43 @@
+key: ListView_j16yknnd
+type: ListView
+props:
+  listView:
+    axis: FF_AXIS_VERTICAL
+    primary: false
+    listSpacing: {}
+    shrinkWrapValue:
+      inputValue: true
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+  firestore:
+    collectionIdentifier:
+      name: treinos
+      key: rwrr6t2d
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: usuarioRef
+            relation: EQUAL_TO
+            variable:
+              source: FIREBASE_AUTH_USER
+              baseVariable:
+                auth:
+                  property: USER_REFERENCE
+  requestManagerSettings: {}
+valueKey: {}

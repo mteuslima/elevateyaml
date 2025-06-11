@@ -1,0 +1,26 @@
+key: Column_wsrzsemo
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    scrollable: false
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 24
+    topValue:
+      inputValue: 60
+    rightValue:
+      inputValue: 24
+    bottomValue:
+      inputValue: 40
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

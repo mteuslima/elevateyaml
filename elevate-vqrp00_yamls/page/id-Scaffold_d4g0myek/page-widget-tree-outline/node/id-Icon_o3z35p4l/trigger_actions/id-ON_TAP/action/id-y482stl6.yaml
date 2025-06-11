@@ -1,0 +1,31 @@
+bottomSheet:
+  passedParameters:
+    parameterPasses:
+      oszp3n:
+        paramIdentifier:
+          name: idreftreino
+          key: oszp3n
+        variable:
+          source: FIRESTORE_REQUEST
+          baseVariable:
+            firestore: {}
+          operations:
+            - accessDocumentField:
+                documentProperty: REFERENCE
+          nodeKeyRef:
+            key: ListView_j16yknnd
+    widgetClassNodeKeyRef:
+      key: Container_94nqp1vi
+  dimensions:
+    height:
+      percentOfScreenSizeValue:
+        inputValue: 90
+  isDismiss: false
+  backgroundColor:
+    inputValue:
+      color:
+        value: "0"
+  barrierColor: {}
+  componentClassNodeKeyRef:
+    key: Container_94nqp1vi
+key: y482stl6

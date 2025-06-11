@@ -1,0 +1,5 @@
+key: Row_pby759nu
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_space_around

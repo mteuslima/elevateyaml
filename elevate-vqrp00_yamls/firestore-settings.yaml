@@ -1,0 +1,33 @@
+rules:
+  collectionRules:
+    eon3e30h:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        everyone: {}
+      isPublic: true
+    rwrr6t2d:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        everyone: {}
+      isPublic: true
+    xwf1mr1i:
+      creat:
+        everyone: {}
+      read:
+        everyone: {}
+      update:
+        everyone: {}
+      delete:
+        everyone: {}
+      isPublic: true
+suppressOnUserDeletedErrors: false

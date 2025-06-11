@@ -1,0 +1,33 @@
+key: Container_fum88l9d
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 129.2
+      height:
+        pixelsValue:
+          inputValue: 100
+    boxDecoration:
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: ACCENT_3
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

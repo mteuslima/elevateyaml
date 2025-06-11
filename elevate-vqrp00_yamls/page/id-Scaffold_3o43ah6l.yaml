@@ -1,0 +1,17 @@
+name: editar-exercicios
+description: ""
+params:
+  ij6e6g:
+    identifier:
+      name: treinoredff
+      key: ij6e6g
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+node:
+  key: Scaffold_3o43ah6l
+classModel: {}

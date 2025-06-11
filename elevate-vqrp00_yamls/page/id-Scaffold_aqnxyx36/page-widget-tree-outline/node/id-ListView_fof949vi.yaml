@@ -1,0 +1,47 @@
+key: ListView_fof949vi
+type: ListView
+props:
+  listView:
+    axis: FF_AXIS_VERTICAL
+    primary: false
+    listSpacing: {}
+    shrinkWrapValue:
+      inputValue: true
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+  firestore:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: TreinoRef
+            relation: EQUAL_TO
+            variable:
+              source: WIDGET_CLASS_PARAMETER
+              baseVariable:
+                widgetClass:
+                  paramIdentifier:
+                    name: treinoid
+                    key: zr65et
+              nodeKeyRef:
+                key: Scaffold_aqnxyx36
+  requestManagerSettings: {}
+valueKey: {}

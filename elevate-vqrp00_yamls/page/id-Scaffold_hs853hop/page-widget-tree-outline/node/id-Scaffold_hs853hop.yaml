@@ -1,0 +1,35 @@
+key: Scaffold_hs853hop
+type: Scaffold
+props:
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  scaffold:
+    safeArea: false
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: tela-inicial
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+  firestore:
+    collectionIdentifier:
+      name: treinos
+      key: rwrr6t2d
+    hideOnEmpty: false
+aiGeneratedNodeInfo:
+  isAiGenerated: true
+  requestPath: ai_gen_requests/YKhdCVlTjvYfMzrVjEBD

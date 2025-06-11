@@ -1,0 +1,132 @@
+projectConfig:
+  enabled: true
+  supabaseUrl:
+    inputValue:
+      serializedValue: https://ufbsblgrwafbjpebnxll.supabase.co
+  anonKey:
+    inputValue:
+      serializedValue: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmYnNibGdyd2FmYmpwZWJueGxsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgzNjM4OTgsImV4cCI6MjA2MzkzOTg5OH0.7zs3nxpdV6ZGivIj4Y2Dey6hE4ZxF6Oe4ThBRe4IoQ4
+databaseConfig:
+  tables:
+    - identifier:
+        name: exercicios
+      fields:
+        - identifier:
+            name: id
+          type:
+            dataType:
+              scalarType: Integer
+          isPrimaryKey: true
+          hasDefault: false
+          isRequired: true
+          description: "Note:\nThis is a Primary Key.<pk\/>"
+          postgresType: bigint
+        - identifier:
+            name: created_at
+          type:
+            dataType:
+              scalarType: DateTime
+          hasDefault: true
+          isRequired: true
+          postgresType: timestamp with time zone
+        - identifier:
+            name: exerciciosimg
+          type:
+            allowedDestinationTypes:
+              - String
+              - ImagePath
+              - VideoPath
+              - AudioPath
+              - MediaPath
+            dataType:
+              scalarType: String
+          hasDefault: false
+          isRequired: false
+          postgresType: text
+      isView: false
+    - identifier:
+        name: treinos
+      fields:
+        - identifier:
+            name: id
+          type:
+            dataType:
+              scalarType: Integer
+          isPrimaryKey: true
+          hasDefault: false
+          isRequired: true
+          description: "Note:\nThis is a Primary Key.<pk\/>"
+          postgresType: bigint
+        - identifier:
+            name: created_at
+          type:
+            dataType:
+              scalarType: DateTime
+          hasDefault: true
+          isRequired: true
+          postgresType: timestamp with time zone
+        - identifier:
+            name: teinoimg
+          type:
+            allowedDestinationTypes:
+              - String
+              - ImagePath
+              - VideoPath
+              - AudioPath
+              - MediaPath
+            dataType:
+              scalarType: String
+          hasDefault: false
+          isRequired: false
+          postgresType: text
+      isView: false
+    - identifier:
+        name: imagem
+      fields:
+        - identifier:
+            name: id
+          type:
+            dataType:
+              scalarType: Integer
+          isPrimaryKey: true
+          hasDefault: false
+          isRequired: true
+          description: "Note:\nThis is a Primary Key.<pk\/>"
+          postgresType: bigint
+        - identifier:
+            name: created_at
+          type:
+            dataType:
+              scalarType: DateTime
+          hasDefault: true
+          isRequired: true
+          postgresType: timestamp with time zone
+        - identifier:
+            name: imagens
+          type:
+            allowedDestinationTypes:
+              - String
+              - ImagePath
+              - VideoPath
+              - AudioPath
+              - MediaPath
+            dataType:
+              scalarType: String
+          hasDefault: false
+          isRequired: false
+          postgresType: text
+        - identifier:
+            name: user_id
+          type:
+            allowedDestinationTypes:
+              - String
+              - ImagePath
+              - VideoPath
+              - AudioPath
+              - MediaPath
+            dataType:
+              scalarType: String
+          hasDefault: false
+          isRequired: false
+          postgresType: text
+      isView: false

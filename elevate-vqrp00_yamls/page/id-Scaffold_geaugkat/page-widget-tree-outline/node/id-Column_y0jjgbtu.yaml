@@ -1,0 +1,31 @@
+key: Column_y0jjgbtu
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_space_between
+    scrollable: false
+    primary: true
+    listSpacing:
+      startSpacingValue:
+        inputValue: 0
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+    rightValue:
+      inputValue: 0
+    bottomValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

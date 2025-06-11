@@ -1,0 +1,44 @@
+key: Container_rbof0dlp
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 340
+      height:
+        pixelsValue:
+          inputValue: 314
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 8
+        topRightValue:
+          inputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+        bottomRightValue:
+          inputValue: 8
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    topValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

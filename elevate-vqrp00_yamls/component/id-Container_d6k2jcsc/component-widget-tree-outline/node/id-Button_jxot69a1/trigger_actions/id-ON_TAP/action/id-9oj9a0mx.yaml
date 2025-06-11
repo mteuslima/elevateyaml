@@ -1,0 +1,11 @@
+alertDialog:
+  informationalDialog:
+    title:
+      inputValue:
+        serializedValue: Foto Atualizada
+    message:
+      inputValue: {}
+    dismissText:
+      inputValue:
+        serializedValue: Ok
+key: 9oj9a0mx

@@ -1,0 +1,46 @@
+key: Container_pswq7u3y
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 1533.5
+      height:
+        pixelsValue:
+          inputValue: 102
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 64
+        topRightValue:
+          inputValue: 64
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: TERTIARY
+    maxDimensions:
+      width:
+        pixelsValue:
+          inputValue: 900
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    topValue:
+      inputValue: 84
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1
+  responsiveVisibility:
+    tabletHidden: false
+    tabletLandscapeHidden: false
+    desktopHidden: false
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

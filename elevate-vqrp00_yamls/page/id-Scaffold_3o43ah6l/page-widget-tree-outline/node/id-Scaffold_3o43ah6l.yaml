@@ -1,0 +1,52 @@
+key: Scaffold_3o43ah6l
+type: Scaffold
+props:
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  scaffold:
+    safeArea: false
+    hideKeyboardOnTap: true
+    disableAndroidBackButton: false
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+    disableResizeToAvoidBottomInset: false
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: editar-exercicios
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+  firestore:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: TreinoRef
+            relation: EQUAL_TO
+            variable:
+              source: WIDGET_CLASS_PARAMETER
+              baseVariable:
+                widgetClass:
+                  paramIdentifier:
+                    name: treinoredff
+                    key: ij6e6g
+              nodeKeyRef:
+                key: Scaffold_3o43ah6l
+aiGeneratedNodeInfo:
+  isAiGenerated: true
+  requestPath: ai_gen_requests/YKhdCVlTjvYfMzrVjEBD

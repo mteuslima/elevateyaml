@@ -1,0 +1,16 @@
+name: cadastro_exercicio
+description: ""
+params:
+  w6msyv:
+    identifier:
+      name: treinoRefParaExercicio
+      key: w6msyv
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+node:
+  key: Container_0y67yp6e

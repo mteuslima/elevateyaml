@@ -1,0 +1,25 @@
+key: Container_x5biqq9z
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 100
+      height:
+        percentOfScreenSizeValue:
+          inputValue: 100
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 16
+        topRightValue:
+          inputValue: 16
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    animationDurationValue:
+      inputValue: 100
+  alignment:
+    xValue: {}
+    yValue: {}

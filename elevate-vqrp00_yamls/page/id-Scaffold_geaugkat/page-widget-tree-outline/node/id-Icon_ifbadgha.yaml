@@ -1,0 +1,45 @@
+key: Icon_ifbadgha
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    iconDataValue:
+      inputValue:
+        codePoint: 63691
+        family: MaterialIcons
+        matchTextDirection: false
+        name: mode_night_rounded
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    topValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    rightValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+    bottomValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  alignment:
+    xValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    yValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  platformType: MATERIAL
+  responsiveVisibility: {}
+name: iconDark
+parameterValues: {}
+valueKey:
+  inputValue: {}

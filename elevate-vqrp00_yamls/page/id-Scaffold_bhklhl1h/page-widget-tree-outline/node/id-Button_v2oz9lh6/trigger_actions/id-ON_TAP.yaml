@@ -1,0 +1,66 @@
+rootAction:
+  key: kkiyq3b3
+  action:
+    key: dwk4gyfc
+  followUpAction:
+    key: goaq06ox
+    conditionActions:
+      falseAction:
+        key: qk4zecl3
+        action:
+          key: ufr3qjsc
+      trueActions:
+        - condition:
+            variable:
+              source: FUNCTION_CALL
+              functionCall:
+                values:
+                  - variable:
+                      source: WIDGET_STATE
+                      baseVariable:
+                        widgetState:
+                          returnParameter:
+                            allowedDestinationTypes:
+                              - Integer
+                              - Double
+                              - Boolean
+                              - ImagePath
+                              - VideoPath
+                              - AudioPath
+                            dataType:
+                              scalarType: String
+                      nodeKeyRef:
+                        key: TextField_0yb1tl74
+                  - variable:
+                      source: WIDGET_STATE
+                      baseVariable:
+                        widgetState:
+                          returnParameter:
+                            allowedDestinationTypes:
+                              - Integer
+                              - Double
+                              - Boolean
+                              - ImagePath
+                              - VideoPath
+                              - AudioPath
+                            dataType:
+                              scalarType: String
+                      nodeKeyRef:
+                        key: TextField_0gz9xhbp
+                condition:
+                  relation: EQUAL_TO
+          trueAction:
+            key: 13iqv61f
+            action:
+              key: jhsk3fcw
+            followUpAction:
+              key: jw9ur2kg
+              action:
+                key: i59d4jie
+              followUpAction:
+                key: p7rz24nf
+                action:
+                  key: wrxuzto2
+      hasMultiConditions: false
+trigger:
+  triggerType: ON_TAP

@@ -1,0 +1,33 @@
+key: Icon_hrp17lyz
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    iconDataValue:
+      inputValue:
+        codePoint: 57491
+        family: MaterialIcons
+        matchTextDirection: true
+        name: arrow_back_ios
+  padding:
+    leftValue:
+      inputValue: 32
+    topValue:
+      inputValue: 16
+    bottomValue:
+      inputValue: 8
+  alignment:
+    xValue:
+      inputValue: -1
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

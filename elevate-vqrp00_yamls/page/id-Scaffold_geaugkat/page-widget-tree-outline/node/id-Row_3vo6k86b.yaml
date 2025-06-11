@@ -1,0 +1,18 @@
+key: Row_3vo6k86b
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_center
+    crossAxisAlignment: cross_axis_start
+    listSpacing:
+      spacingValue:
+        inputValue: 56
+  padding:
+    topValue:
+      inputValue: 4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

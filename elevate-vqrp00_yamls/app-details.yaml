@@ -1,0 +1,18 @@
+name: Elevate
+authPageInfo:
+  homePageNodeKeyRef:
+    key: Scaffold_hs853hop
+  signInPageNodeKeyRef:
+    key: Scaffold_r90zna0b
+appSettings:
+  advancedSettings:
+    canvasKitSettings: {}
+routingSettings:
+  enableRouting: true
+  pagesAreSubroutesOfRoot: false
+initialPageKeyRef:
+  key: Scaffold_hs853hop
+allAppNames:
+  appNames:
+    PROD:
+      packageName: com.mycompany.elevate

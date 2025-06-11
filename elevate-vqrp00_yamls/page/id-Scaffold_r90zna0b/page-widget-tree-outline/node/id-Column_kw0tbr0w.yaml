@@ -1,0 +1,37 @@
+key: Column_kw0tbr0w
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_center
+    scrollable: false
+    primary: true
+    listSpacing:
+      spacingValue:
+        inputValue: 40
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  opacity:
+    opacityValue:
+      inputValue: 1
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: EASE_IN_OUT
+        fade:
+          begin:
+            inputValue:
+              serializedValue: "0"
+          end:
+            inputValue:
+              serializedValue: "1"
+        delay:
+          inputValue:
+            serializedValue: "0"
+        duration:
+          inputValue:
+            serializedValue: "600"
+    applyInitialState: true

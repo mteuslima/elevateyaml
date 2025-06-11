@@ -1,0 +1,51 @@
+key: Container_hver1506
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: Infinity
+    boxDecoration:
+      boxShape: FF_BOX_SHAPE_RECTANGLE
+      gradient:
+        colors:
+          - color:
+              inputValue:
+                color:
+                  value: "4281216558"
+            transitionPoint:
+              inputValue:
+                serializedValue: "0.0"
+        angleValue:
+          inputValue: 180
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+    maxDimensions:
+      width:
+        pixelsValue:
+          inputValue: 900
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

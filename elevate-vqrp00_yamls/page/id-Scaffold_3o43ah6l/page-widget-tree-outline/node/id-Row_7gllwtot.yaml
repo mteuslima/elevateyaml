@@ -1,0 +1,21 @@
+key: Row_7gllwtot
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_center
+    listSpacing:
+      spacingValue:
+        inputValue: 30
+  padding:
+    leftValue:
+      inputValue: 24
+    rightValue:
+      inputValue: 24
+    bottomValue:
+      inputValue: 8
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

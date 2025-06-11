@@ -1,0 +1,51 @@
+key: Column_1h0f2jsy
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: false
+  padding:
+    leftValue:
+      inputValue: 8
+    rightValue:
+      inputValue: 8
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+  firestore:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    hideOnEmpty: true
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: EASE_IN_OUT
+        fade:
+          begin:
+            inputValue:
+              serializedValue: "0"
+          end:
+            inputValue:
+              serializedValue: "1"
+        delay:
+          inputValue:
+            serializedValue: "0"
+        duration:
+          inputValue:
+            serializedValue: "600"
+    applyInitialState: true
+valueKey: {}

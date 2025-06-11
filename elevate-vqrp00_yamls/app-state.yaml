@@ -1,0 +1,11 @@
+fields:
+  - parameter:
+      identifier:
+        name: isDarkTheme
+        key: aa8ij70h
+      dataType:
+        scalarType: Boolean
+      description: ""
+    persisted: false
+    serializedDefaultValue:
+      - "true"

@@ -1,0 +1,28 @@
+key: Column_2vncjarj
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    scrollable: true
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 24
+    topValue:
+      inputValue: 8
+    rightValue:
+      inputValue: 24
+    allValue:
+      inputValue: 0
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

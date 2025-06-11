@@ -1,0 +1,17 @@
+name: edicao_treino
+description: ""
+params:
+  oszp3n:
+    identifier:
+      name: idreftreino
+      key: oszp3n
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+node:
+  key: Container_94nqp1vi
+classModel: {}

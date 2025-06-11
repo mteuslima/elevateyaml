@@ -1,0 +1,21 @@
+key: Scaffold_d4g0myek
+type: Scaffold
+props:
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  scaffold:
+    safeArea: false
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: editar-treinos
+aiGeneratedNodeInfo:
+  isAiGenerated: true
+  requestPath: ai_gen_requests/YKhdCVlTjvYfMzrVjEBD

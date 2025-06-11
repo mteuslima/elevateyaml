@@ -1,0 +1,22 @@
+key: Column_xc5xnhud
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    scrollable: true
+    primary: true
+    listSpacing: {}
+  padding:
+    topValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

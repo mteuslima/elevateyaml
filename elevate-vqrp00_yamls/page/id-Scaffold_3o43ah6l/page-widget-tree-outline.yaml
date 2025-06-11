@@ -1,0 +1,66 @@
+node:
+  key: Scaffold_3o43ah6l
+  body:
+    key: Column_yr82b2ti
+    children:
+      - key: Container_5ez3vxlt
+      - key: Icon_oyp64hpy
+      - key: Column_jbw8wvad
+        children:
+          - key: Text_fs1i7ec8
+      - key: Container_cpx3bnh4
+        children:
+          - key: Row_troiklm4
+            children:
+              - key: Container_a4t4iaqv
+                children:
+                  - key: Image_7zorhbjh
+              - key: Container_fum88l9d
+                children:
+                  - key: Column_7x9ab6y1
+                    children:
+                      - key: Text_m9aivyhr
+                      - key: Text_azdxxqs6
+                      - key: Text_zjeysmry
+      - key: Container_grp7os8d
+        children:
+          - key: Column_x75rtlve
+            children:
+              - key: ListView_h8yscx6p
+                children:
+                  - key: Container_6z9p3bev
+                    children:
+                      - key: Row_mltmtd3b
+                        children:
+                          - key: Container_28wcty8x
+                            children:
+                              - key: Image_pqrckjai
+                          - key: Container_fmlgho1i
+                            children:
+                              - key: Column_apjco9wa
+                                children:
+                                  - key: Text_nj3qjget
+                                  - key: Text_owr15git
+                                  - key: Text_txolmjgj
+                                  - key: Text_1ywzut8a
+                                  - key: Text_83gtunth
+                                  - key: Row_wo9qguwo
+                                    children:
+                                      - key: Icon_kq4rlbcs
+                                      - key: Icon_s0je5b31
+      - key: Row_7gllwtot
+        children:
+          - key: Button_xs57lek1
+      - key: Container_vmzovvwz
+        children:
+          - key: Row_l9hfcbzn
+            children:
+              - key: Container_mcr7exhf
+                children:
+                  - key: Icon_oqinfp3j
+              - key: Container_frdmdl70
+                children:
+                  - key: Icon_f2w663p1
+              - key: Container_hsxggnwj
+                children:
+                  - key: Icon_1ajb986d

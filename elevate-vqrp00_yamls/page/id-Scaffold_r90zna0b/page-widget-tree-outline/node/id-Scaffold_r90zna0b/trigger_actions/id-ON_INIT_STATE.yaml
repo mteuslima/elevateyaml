@@ -1,0 +1,6 @@
+rootAction:
+  key: q441ao20
+  action:
+    key: hg4eoh3x
+trigger:
+  triggerType: ON_INIT_STATE

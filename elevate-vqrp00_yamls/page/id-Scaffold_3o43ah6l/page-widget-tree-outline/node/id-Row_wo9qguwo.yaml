@@ -1,0 +1,12 @@
+key: Row_wo9qguwo
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_start
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,14 @@
+key: Column_axfkkbxl
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    scrollable: true
+    primary: true
+    minSizeValue:
+      inputValue: false
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

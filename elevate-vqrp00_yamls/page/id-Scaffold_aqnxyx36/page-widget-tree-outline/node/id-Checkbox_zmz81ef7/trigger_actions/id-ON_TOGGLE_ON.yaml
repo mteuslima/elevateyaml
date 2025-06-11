@@ -1,0 +1,6 @@
+rootAction:
+  key: pmd17ir1
+  action:
+    key: sw0ee2vd
+trigger:
+  triggerType: ON_TOGGLE_ON

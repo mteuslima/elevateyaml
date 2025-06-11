@@ -1,0 +1,45 @@
+identifier:
+  name: usuario
+  key: eon3e30h
+fields:
+  email:
+    identifier:
+      name: email
+    dataType:
+      scalarType: String
+  senha:
+    identifier:
+      name: senha
+    dataType:
+      scalarType: String
+  created_time:
+    identifier:
+      name: created_time
+    dataType:
+      scalarType: DateTime
+  display_name:
+    identifier:
+      name: display_name
+    dataType:
+      scalarType: String
+  phone_number:
+    identifier:
+      name: phone_number
+    dataType:
+      scalarType: String
+  uid:
+    identifier:
+      name: uid
+    dataType:
+      scalarType: String
+  username:
+    identifier:
+      name: username
+    dataType:
+      scalarType: String
+  photo_url:
+    identifier:
+      name: photo_url
+    dataType:
+      scalarType: ImagePath
+description: ""

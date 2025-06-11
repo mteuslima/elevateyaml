@@ -1,0 +1,26 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        imagemexer:
+          fieldIdentifier:
+            name: imagemexer
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                actionType: UPLOAD_DATA_URL
+                actionKeyRef:
+                  key: fgwhlybc
+            nodeKeyRef:
+              key: Button_jxot69a1
+    reference:
+      source: FIRESTORE_REQUEST
+      baseVariable:
+        firestore: {}
+      operations:
+        - accessDocumentField:
+            documentProperty: REFERENCE
+      nodeKeyRef:
+        key: Column_1h0f2jsy
+key: sl0uxf6g

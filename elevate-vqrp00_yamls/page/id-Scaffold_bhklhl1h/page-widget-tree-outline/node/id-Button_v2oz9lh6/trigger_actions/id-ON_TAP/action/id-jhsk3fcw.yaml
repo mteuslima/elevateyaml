@@ -1,0 +1,11 @@
+auth:
+  type: CREATE_ACCOUNT
+  provider: EMAIL
+  emailFieldKeyRef:
+    key: TextField_dixkjx5l
+  passwordFieldKeyRef:
+    key: TextField_0yb1tl74
+  confirmPasswordFieldKeyRef:
+    key: TextField_0gz9xhbp
+  disableAutoNavigate: true
+key: jhsk3fcw

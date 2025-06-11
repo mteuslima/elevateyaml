@@ -1,0 +1,31 @@
+key: Text_uxvnhv23
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: HEADLINE_MEDIUM
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: Meu perfil
+    fontSizeValue:
+      inputValue: 32
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 0
+    bottomValue:
+      inputValue: 8
+    allValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

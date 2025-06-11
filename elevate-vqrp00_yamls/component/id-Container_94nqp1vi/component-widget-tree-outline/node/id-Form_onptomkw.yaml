@@ -1,0 +1,10 @@
+key: Form_onptomkw
+type: Form
+props:
+  responsiveVisibility: {}
+  form: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

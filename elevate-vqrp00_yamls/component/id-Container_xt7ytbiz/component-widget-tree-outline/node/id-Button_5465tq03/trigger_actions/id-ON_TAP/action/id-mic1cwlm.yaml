@@ -1,0 +1,21 @@
+key: mic1cwlm
+uploadData:
+  settings:
+    allowedTypes:
+      photo: true
+      video: false
+      file: false
+    source: GALLERY_OR_CAMERA
+    galleryOrCameraPickerStyle: {}
+    showSnackBar: false
+    localFileVariable: {}
+  destination: SUPABASE
+  supabase:
+    storageBucket:
+      inputValue:
+        serializedValue: profileimages
+    storageFolderPath:
+      inputValue:
+        serializedValue: fotoperfil
+  actionName: UploadData_zov
+nonBlocking: false

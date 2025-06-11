@@ -1,0 +1,22 @@
+key: Column_tuv39a6x
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_space_between
+    scrollable: false
+    primary: true
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 24
+    topValue:
+      inputValue: 100
+    rightValue:
+      inputValue: 24
+    bottomValue:
+      inputValue: 64
+  opacity:
+    opacityValue:
+      inputValue: 1

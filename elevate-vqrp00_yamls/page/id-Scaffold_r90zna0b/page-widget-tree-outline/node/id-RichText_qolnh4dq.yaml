@@ -1,0 +1,24 @@
+key: RichText_qolnh4dq
+type: RichText
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 32
+    allValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  richText:
+    textStyle:
+      fontFamily: Plus Jakarta Sans
+      themeStyle: BODY_MEDIUM
+      isCustomFont: false
+      selectable: false
+      colorValue:
+        inputValue:
+          themeColor: ALTERNATE
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

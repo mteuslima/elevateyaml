@@ -1,0 +1,21 @@
+key: Icon_o3z35p4l
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    iconDataValue:
+      inputValue:
+        codePoint: 61453
+        family: MaterialIcons
+        matchTextDirection: false
+        name: edit_outlined
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

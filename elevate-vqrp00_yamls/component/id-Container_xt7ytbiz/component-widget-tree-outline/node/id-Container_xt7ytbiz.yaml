@@ -1,0 +1,10 @@
+key: Container_xt7ytbiz
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+name: edicao_perfil
+isDummyRoot: true

@@ -1,0 +1,46 @@
+key: Column_jllrx1ek
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    crossAxisAlignment: cross_axis_center
+    scrollable: false
+    primary: true
+    listSpacing:
+      spacingValue:
+        inputValue: 8
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 16
+    allValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+  document:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    reference:
+      source: WIDGET_CLASS_PARAMETER
+      baseVariable:
+        widgetClass:
+          paramIdentifier:
+            name: idrefexercicio
+            key: oszp3n
+      nodeKeyRef:
+        key: Container_d6k2jcsc
+valueKey: {}

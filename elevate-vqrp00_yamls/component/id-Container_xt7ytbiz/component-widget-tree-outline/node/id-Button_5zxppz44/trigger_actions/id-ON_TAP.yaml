@@ -1,0 +1,11 @@
+rootAction:
+  key: rx9ca4nz
+  action:
+    key: ixjqzza6
+  followUpAction:
+    key: 9wg2kw9g
+    action:
+      key: 08cqvyzz
+trigger:
+  triggerType: ON_TAP
+batchFirestoreWrites: true

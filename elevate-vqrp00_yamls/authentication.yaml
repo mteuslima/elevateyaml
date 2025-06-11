@@ -1,0 +1,77 @@
+active: true
+firebase:
+  createUserDocument:
+    collectionIdentifier:
+      name: usuario
+      key: eon3e30h
+    write:
+      updates:
+        username:
+          fieldIdentifier:
+            name: username
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            dynamicComponentAccess: {}
+            nodeKeyRef:
+              key: TextField_yyuc5mcz
+        email:
+          fieldIdentifier:
+            name: email
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_dixkjx5l
+        senha:
+          fieldIdentifier:
+            name: senha
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_0yb1tl74
+firebaseConfigFileInfos:
+  - androidPath: users/tkdHqfG1iaO3cYg75VHnIU6lzP32/projects/elevate-vqrp00/configs/5jg4w87di6fg/google-services.json
+    iosPath: users/tkdHqfG1iaO3cYg75VHnIU6lzP32/projects/elevate-vqrp00/configs/hqqqc820x7eq/GoogleService-Info.plist
+    webConfig: "\/\/ Copy and paste this into your JavaScript code to initialize the Firebase SDK.\n\/\/ You will also need to load the Firebase SDK.\n\/\/ See https:\/\/firebase.google.com\/docs\/web\/setup for more details.\n\nfirebase.initializeApp({\n  \"projectId\": \"elevate-6054c\",\n  \"appId\": \"1:855032925376:web:70d49180f36c12beaaf125\",\n  \"storageBucket\": \"elevate-6054c.firebasestorage.app\",\n  \"apiKey\": \"AIzaSyBkjwb-1qOxGneex-P9SSnRsELr15hgVew\",\n  \"authDomain\": \"elevate-6054c.firebaseapp.com\",\n  \"messagingSenderId\": \"855032925376\"\n});\n"
+    androidPackageNames:
+      - com.mycompany.elevate
+      - com.mycompany.elevate
+    iosBundleId: com.mycompany.elevate
+    environment:
+      name: Production
+      key: PROD

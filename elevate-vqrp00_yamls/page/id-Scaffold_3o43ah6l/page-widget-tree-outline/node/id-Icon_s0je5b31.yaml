@@ -1,0 +1,21 @@
+key: Icon_s0je5b31
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: SUCCESS
+    iconDataValue:
+      inputValue:
+        codePoint: 61353
+        family: MaterialIcons
+        matchTextDirection: false
+        name: delete_outline_outlined
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

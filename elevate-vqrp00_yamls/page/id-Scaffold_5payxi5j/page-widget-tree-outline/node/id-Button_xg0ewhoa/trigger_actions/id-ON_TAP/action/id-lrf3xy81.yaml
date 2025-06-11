@@ -1,0 +1,101 @@
+database:
+  createDocument:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    write:
+      updates:
+        nome:
+          fieldIdentifier:
+            name: nome
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_yfuhs9nf
+        series:
+          fieldIdentifier:
+            name: series
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_3cr21h93
+        carga:
+          fieldIdentifier:
+            name: carga
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_vv4uil3o
+        categoria:
+          fieldIdentifier:
+            name: categoria
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_cjklwidn
+        TreinoRef:
+          fieldIdentifier:
+            name: TreinoRef
+          variable:
+            source: WIDGET_CLASS_PARAMETER
+            baseVariable:
+              widgetClass:
+                paramIdentifier:
+                  name: treinoRefParaExercicio
+                  key: soivp3
+            nodeKeyRef:
+              key: Scaffold_5payxi5j
+        criado_em:
+          fieldIdentifier:
+            name: criado_em
+          fieldValue:
+            fieldValue: FIRESTORE_SERVER_TIMESTAMP
+key: lrf3xy81

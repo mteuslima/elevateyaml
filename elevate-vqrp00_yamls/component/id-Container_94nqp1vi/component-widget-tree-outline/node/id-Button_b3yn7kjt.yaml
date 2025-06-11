@@ -1,0 +1,67 @@
+key: Button_b3yn7kjt
+type: Button
+props:
+  button:
+    text:
+      fontFamily: Plus Jakarta Sans
+      themeStyle: TITLE_SMALL
+      isCustomFont: false
+      textValue:
+        inputValue: Salvar
+      colorValue:
+        inputValue:
+          themeColor: WARNING
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 8
+    innerPadding:
+      type: FF_PADDING_ALL
+      allValue:
+        inputValue: 8
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 132
+      height:
+        pixelsValue:
+          inputValue: 48
+    elevationValue:
+      inputValue: 2
+    fillColorValue:
+      inputValue:
+        themeColor: SUCCESS
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 8
+    showLoadingIndicatorValue:
+      inputValue: true
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+    topValue:
+      inputValue: 24
+    rightValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+  firestore:
+    collectionIdentifier:
+      name: treinos
+      key: rwrr6t2d
+    hideOnEmpty: true
+valueKey: {}

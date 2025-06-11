@@ -1,0 +1,32 @@
+key: Column_ovkzkbql
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_space_between
+    scrollable: false
+    primary: true
+    listSpacing:
+      applyStartEndSpace: false
+      spacingValue:
+        inputValue: 0
+      startSpacingValue:
+        inputValue: 0
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 0
+    bottomValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

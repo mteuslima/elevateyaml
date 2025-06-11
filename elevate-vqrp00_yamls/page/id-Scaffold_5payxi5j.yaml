@@ -1,0 +1,16 @@
+name: cadastrar_exercicio
+description: ""
+params:
+  soivp3:
+    identifier:
+      name: treinoRefParaExercicio
+      key: soivp3
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+node:
+  key: Scaffold_5payxi5j

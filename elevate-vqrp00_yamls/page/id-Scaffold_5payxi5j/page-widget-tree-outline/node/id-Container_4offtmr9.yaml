@@ -1,0 +1,30 @@
+key: Container_4offtmr9
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 1456
+      height:
+        pixelsValue:
+          inputValue: 706.2
+    boxDecoration:
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+    maxDimensions:
+      width:
+        pixelsValue:
+          inputValue: 900
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,17 @@
+key: Form_heega45j
+type: Form
+props:
+  form: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+  firestore:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    hideOnEmpty: true

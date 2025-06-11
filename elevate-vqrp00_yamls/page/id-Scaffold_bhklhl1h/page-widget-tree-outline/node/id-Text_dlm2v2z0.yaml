@@ -1,0 +1,34 @@
+key: Text_dlm2v2z0
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: DISPLAY_SMALL
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: ELEVATE
+    fontSizeValue:
+      inputValue: 48
+    colorValue:
+      inputValue:
+        themeColor: SUCCESS
+    fontWeightValue:
+      inputValue: w800
+    textAlignValue:
+      inputValue: ALIGN_START
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

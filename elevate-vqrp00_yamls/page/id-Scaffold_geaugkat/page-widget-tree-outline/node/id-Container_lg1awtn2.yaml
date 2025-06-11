@@ -1,0 +1,33 @@
+key: Container_lg1awtn2
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 1196.3
+      height:
+        pixelsValue:
+          inputValue: 580
+    boxDecoration:
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+    maxDimensions:
+      width:
+        pixelsValue:
+          inputValue: 900
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    bottomValue:
+      inputValue: 16
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

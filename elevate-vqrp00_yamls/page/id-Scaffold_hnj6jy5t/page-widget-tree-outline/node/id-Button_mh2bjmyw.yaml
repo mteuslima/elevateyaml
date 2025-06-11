@@ -1,0 +1,70 @@
+key: Button_mh2bjmyw
+type: Button
+props:
+  button:
+    text:
+      fontFamily: Plus Jakarta Sans
+      themeStyle: TITLE_SMALL
+      isCustomFont: false
+      textValue:
+        inputValue: Editar treino
+      colorValue:
+        inputValue:
+          themeColor: WARNING
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 8
+    innerPadding:
+      type: FF_PADDING_ALL
+      allValue:
+        inputValue: 8
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 140
+      height:
+        pixelsValue:
+          inputValue: 48
+    elevationValue:
+      inputValue: 2
+    fillColorValue:
+      inputValue:
+        themeColor: SUCCESS
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 8
+    showLoadingIndicatorValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: WARNING
+        iconDataValue:
+          inputValue:
+            codePoint: 61453
+            family: MaterialIcons
+            matchTextDirection: false
+            name: edit_outlined
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+    rightValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

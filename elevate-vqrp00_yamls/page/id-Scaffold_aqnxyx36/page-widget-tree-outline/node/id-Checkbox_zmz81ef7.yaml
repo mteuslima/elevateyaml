@@ -1,0 +1,35 @@
+key: Checkbox_zmz81ef7
+type: Checkbox
+props:
+  responsiveVisibility: {}
+  checkbox:
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 4
+    density: COMPACT
+    initialValueValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: concluido
+        nodeKeyRef:
+          key: ListView_fof949vi
+    uncheckedColorValue:
+      inputValue:
+        themeColor: SUCCESS
+    activeColorValue:
+      inputValue:
+        themeColor: SUCCESS
+    checkColorValue:
+      inputValue:
+        themeColor: ALTERNATE
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

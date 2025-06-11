@@ -1,0 +1,17 @@
+name: meu-treino
+description: ""
+params:
+  zr65et:
+    identifier:
+      name: treinoid
+      key: zr65et
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+node:
+  key: Scaffold_aqnxyx36
+classModel: {}

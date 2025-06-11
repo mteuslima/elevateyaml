@@ -1,0 +1,10 @@
+webSettings:
+  PROD:
+    seoTitle: Elevate
+    seoDescription: App de academia
+    subdomain: elevate-1
+    pageTitle: Elevate
+    allowSearchEngineIndexing: true
+    allowPwa: true
+    statusBarColor:
+      themeColor: WARNING

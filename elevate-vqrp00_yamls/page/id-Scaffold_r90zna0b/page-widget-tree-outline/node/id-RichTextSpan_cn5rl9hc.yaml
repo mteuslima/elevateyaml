@@ -1,0 +1,20 @@
+key: RichTextSpan_cn5rl9hc
+type: RichTextSpan
+props:
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  richTextSpan:
+    textSpan:
+      selectable: false
+      textValue:
+        inputValue: Cadastre-se
+      colorValue:
+        inputValue:
+          themeColor: SUCCESS
+      fontWeightValue:
+        inputValue: w600
+  opacity:
+    opacityValue:
+      inputValue: 1

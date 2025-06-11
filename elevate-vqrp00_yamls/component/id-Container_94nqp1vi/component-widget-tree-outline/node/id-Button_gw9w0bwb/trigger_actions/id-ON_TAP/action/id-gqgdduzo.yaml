@@ -1,0 +1,22 @@
+key: gqgdduzo
+uploadData:
+  settings:
+    allowedTypes:
+      photo: true
+      video: false
+      file: false
+    source: GALLERY_OR_CAMERA
+    galleryOrCameraPickerStyle:
+      fontFamily: Plus Jakarta Sans
+    showSnackBar: false
+    localFileVariable: {}
+  destination: SUPABASE
+  supabase:
+    storageBucket:
+      inputValue:
+        serializedValue: profileimages
+    storageFolderPath:
+      inputValue:
+        serializedValue: fototreino
+  actionName: UploadData_pyn
+nonBlocking: false

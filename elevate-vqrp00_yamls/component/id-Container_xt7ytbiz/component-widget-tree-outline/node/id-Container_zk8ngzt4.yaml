@@ -1,0 +1,37 @@
+key: Container_zk8ngzt4
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 100
+      height:
+        percentOfScreenSizeValue:
+          inputValue: 100
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 16
+        topRightValue:
+          inputValue: 16
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  alignment:
+    xValue: {}
+    yValue: {}
+  expanded:
+    expandedType: EXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

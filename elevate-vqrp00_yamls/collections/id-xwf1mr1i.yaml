@@ -1,0 +1,54 @@
+identifier:
+  name: exercicios
+  key: xwf1mr1i
+fields:
+  nome:
+    identifier:
+      name: nome
+    dataType:
+      scalarType: String
+  descricao:
+    identifier:
+      name: descricao
+    dataType:
+      scalarType: String
+  series:
+    identifier:
+      name: series
+    dataType:
+      scalarType: Integer
+  TreinoRef:
+    identifier:
+      name: TreinoRef
+    dataType:
+      scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+  criado_em:
+    identifier:
+      name: criado_em
+    dataType:
+      scalarType: DateTime
+  categoria:
+    identifier:
+      name: categoria
+    dataType:
+      scalarType: String
+  concluido:
+    identifier:
+      name: concluido
+    dataType:
+      scalarType: Boolean
+  carga:
+    identifier:
+      name: carga
+    dataType:
+      scalarType: String
+  imagemexer:
+    identifier:
+      name: imagemexer
+    dataType:
+      scalarType: ImagePath
+description: ""

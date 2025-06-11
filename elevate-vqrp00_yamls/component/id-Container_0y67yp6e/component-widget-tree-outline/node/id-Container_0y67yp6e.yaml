@@ -1,0 +1,10 @@
+key: Container_0y67yp6e
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+name: cadastro_exercicio
+isDummyRoot: true

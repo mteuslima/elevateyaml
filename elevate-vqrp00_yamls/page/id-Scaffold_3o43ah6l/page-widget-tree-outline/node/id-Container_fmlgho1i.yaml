@@ -1,0 +1,23 @@
+key: Container_fmlgho1i
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 129.2
+      height:
+        pixelsValue:
+          inputValue: 125
+    boxDecoration:
+      colorValue:
+        inputValue:
+          themeColor: ACCENT_3
+    animationDurationValue:
+      inputValue: 100
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

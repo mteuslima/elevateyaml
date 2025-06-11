@@ -1,0 +1,9 @@
+animation:
+  animationType: WIDGET_ANIMATION_ACTION
+  widgetAnimation:
+    actionType: REVERSE_ANIMATION
+    reverse: true
+    animationNodeKeyRef:
+      key: Container_9eivfvlu
+key: bze9jeky
+nonBlocking: true

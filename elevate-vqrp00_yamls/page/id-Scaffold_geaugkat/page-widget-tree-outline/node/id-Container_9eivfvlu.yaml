@@ -1,0 +1,82 @@
+key: Container_9eivfvlu
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 36
+          mostRecentInputValue: 36
+      height:
+        pixelsValue:
+          inputValue: 36
+          mostRecentInputValue: 36
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 30
+          mostRecentInputValue: 30
+        topRightValue:
+          inputValue: 30
+          mostRecentInputValue: 30
+        bottomLeftValue:
+          inputValue: 30
+          mostRecentInputValue: 30
+        bottomRightValue:
+          inputValue: 30
+          mostRecentInputValue: 30
+        allValue:
+          inputValue: 30
+          mostRecentInputValue: 30
+      boxShape: FF_BOX_SHAPE_RECTANGLE
+      boxShadow:
+        blurRadiusValue:
+          inputValue: 4
+          mostRecentInputValue: 4
+        colorValue:
+          inputValue:
+            value: "1124797711"
+          mostRecentInputValue:
+            value: "1124797711"
+        dyValue:
+          inputValue: 2
+          mostRecentInputValue: 2
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+  alignment:
+    xValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+  platformType: MATERIAL
+  responsiveVisibility: {}
+name: darkSwitch_small
+parameterValues: {}
+animations:
+  - trigger: ON_ACTION_TRIGGER
+    effects:
+      - curve: EASE_IN_OUT
+        slide:
+          beginDx:
+            inputValue:
+              serializedValue: "-40"
+          beginDy:
+            inputValue:
+              serializedValue: "0"
+          endDx:
+            inputValue:
+              serializedValue: "0"
+          endDy:
+            inputValue:
+              serializedValue: "0"
+        duration:
+          inputValue:
+            serializedValue: "300"
+    applyInitialState: true

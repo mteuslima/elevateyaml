@@ -1,0 +1,46 @@
+key: Image_7zorhbjh
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_NETWORK
+    fit: FF_BOX_FIT_COVER
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 150
+          mostRecentInputValue: 150
+      height:
+        pixelsValue:
+          inputValue: 150
+          mostRecentInputValue: 150
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 12
+        mostRecentInputValue: 12
+    cacheFadeDuration: 500
+    pathValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        defaultValue:
+          serializedValue: https://www.pngplay.com/wp-content/uploads/8/Upload-Icon-Logo-Transparent-Image.png
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: imagemtrei
+        nodeKeyRef:
+          key: Container_cpx3bnh4
+  padding:
+    topValue:
+      inputValue: 8
+      mostRecentInputValue: 8
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    animatedOpacity: {}
+parameterValues: {}
+valueKey: {}

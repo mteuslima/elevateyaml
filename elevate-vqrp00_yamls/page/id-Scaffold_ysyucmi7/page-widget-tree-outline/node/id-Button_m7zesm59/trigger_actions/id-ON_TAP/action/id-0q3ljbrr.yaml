@@ -1,0 +1,64 @@
+database:
+  createDocument:
+    collectionIdentifier:
+      name: treinos
+      key: rwrr6t2d
+    write:
+      updates:
+        titulo:
+          fieldIdentifier:
+            name: titulo
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_e5khk3p6
+        descricao:
+          fieldIdentifier:
+            name: descricao
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_dags3jx3
+        criado_em:
+          fieldIdentifier:
+            name: criado_em
+          variable:
+            source: FIREBASE_AUTH_USER
+            baseVariable:
+              auth:
+                property: USERS_DATA_FIELD
+                usersDataField:
+                  name: created_time
+        usuarioRef:
+          fieldIdentifier:
+            name: usuarioRef
+          variable:
+            source: FIREBASE_AUTH_USER
+            baseVariable:
+              auth:
+                property: USER_REFERENCE
+key: 0q3ljbrr

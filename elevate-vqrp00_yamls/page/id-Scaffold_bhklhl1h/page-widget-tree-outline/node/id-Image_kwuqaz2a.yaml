@@ -1,0 +1,37 @@
+key: Image_kwuqaz2a
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_ASSET
+    fit: FF_BOX_FIT_COVER
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 100
+      height:
+        pixelsValue:
+          inputValue: 88
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 8
+    cacheFadeDuration: 500
+    imageAlignment:
+      xValue:
+        inputValue: 0
+      yValue:
+        inputValue: 0
+    pathValue:
+      inputValue: projects/elevate-vqrp00/assets/gk0qlwom6aw5/image-removebg-preview.png
+    format: FF_IMAGE_FORMAT_IMAGE
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

@@ -1,0 +1,25 @@
+rootAction:
+  key: 1zt3gkti
+  action:
+    key: dvjulolz
+  followUpAction:
+    key: l1v5oh6c
+    conditionActions:
+      falseAction:
+        key: jyivig8u
+        terminate: {}
+      trueActions:
+        - condition:
+            variable:
+              source: GLOBAL_PROPERTIES
+              baseVariable:
+                globalProperties:
+                  property: IS_USER_LOGGED_IN
+          trueAction:
+            key: albhnxlg
+            action:
+              key: pkmmukeg
+      hasMultiConditions: false
+      key: g9okbxjh
+trigger:
+  triggerType: ON_TAP

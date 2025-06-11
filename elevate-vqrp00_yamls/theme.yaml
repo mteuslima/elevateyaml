@@ -1,0 +1,147 @@
+loadingIndicatorStyle:
+  type: CIRCULAR
+  color:
+    themeColor: PRIMARY
+  diameter: 50
+defaultTypography:
+  primaryFontFamily: Inter Tight
+  secondaryFontFamily: Inter
+  displaySmall:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 36
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  headlineMedium:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 28
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  headlineSmall:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  titleMedium:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 18
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  titleSmall:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  bodyMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  bodySmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 12
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  displayLarge:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 64
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  displayMedium:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 44
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  headlineLarge:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 32
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  titleLarge:
+    fontFamily: Inter Tight
+    fontSizeValue:
+      inputValue: 20
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  labelLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  labelMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  labelSmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 12
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  bodyLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+breakPoints:
+  small: 479
+  medium: 767
+  large: 991

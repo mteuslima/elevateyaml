@@ -1,0 +1,24 @@
+key: Text_u887dtyu
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: LABEL_LARGE
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: Nome
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    fontWeightValue:
+      inputValue: w500
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 8
+    allValue:
+      inputValue: 0
+  opacity:
+    opacityValue:
+      inputValue: 1

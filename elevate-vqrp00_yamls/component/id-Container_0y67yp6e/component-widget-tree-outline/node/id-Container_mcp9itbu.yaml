@@ -1,0 +1,52 @@
+key: Container_mcp9itbu
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 100
+      height:
+        percentOfScreenSizeValue:
+          inputValue: 40
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 8
+        topRightValue:
+          inputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+        bottomRightValue:
+          inputValue: 8
+      boxShape: FF_BOX_SHAPE_RECTANGLE
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    childAlignment:
+      xValue:
+        inputValue: 0
+      yValue:
+        inputValue: 0
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 16
+    topValue:
+      inputValue: 0
+    rightValue:
+      inputValue: 16
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

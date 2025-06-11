@@ -1,0 +1,46 @@
+key: Container_e24gvfwk
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 284
+      height:
+        pixelsValue:
+          inputValue: 140
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 8
+        topRightValue:
+          inputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+        bottomRightValue:
+          inputValue: 8
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: ACCENT_3
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    topValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 2
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

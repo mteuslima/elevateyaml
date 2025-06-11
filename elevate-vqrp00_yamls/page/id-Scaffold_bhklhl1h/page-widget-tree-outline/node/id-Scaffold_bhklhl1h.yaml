@@ -1,0 +1,34 @@
+key: Scaffold_bhklhl1h
+type: Scaffold
+props:
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  scaffold:
+    safeArea: true
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: cadastro
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: usuario
+          key: eon3e30h
+  firestore:
+    collectionIdentifier:
+      name: usuario
+      key: eon3e30h
+    hideOnEmpty: true
+aiGeneratedNodeInfo:
+  isAiGenerated: true
+  requestPath: ai_gen_requests/ubF4WHSrPy20siuemPbE

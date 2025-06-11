@@ -1,0 +1,16 @@
+name: meus-treinos
+description: ""
+params:
+  uyrj4z:
+    identifier:
+      name: treino
+      key: uyrj4z
+    dataType:
+      scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: treinos
+          key: rwrr6t2d
+node:
+  key: Scaffold_hnj6jy5t
+classModel: {}

@@ -1,0 +1,32 @@
+key: Text_ca4hvyvt
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: HEADLINE_MEDIUM
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: Cadastrar treino
+    fontSizeValue:
+      inputValue: 32
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

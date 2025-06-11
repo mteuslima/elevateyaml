@@ -1,0 +1,48 @@
+key: Container_el6ncuet
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 500
+      height:
+        pixelsValue:
+          inputValue: 864
+    boxDecoration:
+      borderRadius:
+        topLeftValue:
+          inputValue: 16
+        topRightValue:
+          inputValue: 16
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+  alignment:
+    xValue: {}
+    yValue: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: exercicios
+          key: xwf1mr1i
+  firestore:
+    collectionIdentifier:
+      name: exercicios
+      key: xwf1mr1i
+    hideOnEmpty: true
+valueKey: {}

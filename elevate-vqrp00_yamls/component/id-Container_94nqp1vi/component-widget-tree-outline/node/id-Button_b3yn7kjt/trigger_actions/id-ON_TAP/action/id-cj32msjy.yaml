@@ -1,0 +1,52 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        titulo:
+          fieldIdentifier:
+            name: titulo
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_d219jkxo
+        descricao:
+          fieldIdentifier:
+            name: descricao
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_ceafvz8m
+    reference:
+      source: WIDGET_CLASS_PARAMETER
+      baseVariable:
+        widgetClass:
+          paramIdentifier:
+            name: idreftreino
+            key: oszp3n
+      nodeKeyRef:
+        key: Container_94nqp1vi
+key: cj32msjy

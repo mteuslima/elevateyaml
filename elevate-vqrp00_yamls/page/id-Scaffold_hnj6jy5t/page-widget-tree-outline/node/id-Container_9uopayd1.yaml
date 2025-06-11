@@ -1,0 +1,33 @@
+key: Container_9uopayd1
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 1
+    boxDecoration:
+      colorValue:
+        inputValue:
+          themeColor: ERROR
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+    topValue:
+      inputValue: 32
+    rightValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  opacity:
+    opacityValue:
+      inputValue: 1

@@ -1,0 +1,6 @@
+rootAction:
+  key: 7da1ybap
+  action:
+    key: mnqh2sbp
+trigger:
+  triggerType: ON_TAP

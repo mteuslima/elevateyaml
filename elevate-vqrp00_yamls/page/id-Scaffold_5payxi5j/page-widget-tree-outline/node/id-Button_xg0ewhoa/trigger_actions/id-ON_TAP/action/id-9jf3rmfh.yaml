@@ -1,0 +1,23 @@
+navigate:
+  allowBack: true
+  passedParameters:
+    parameterPasses:
+      ij6e6g:
+        paramIdentifier:
+          name: treinoredff
+          key: ij6e6g
+        variable:
+          source: WIDGET_CLASS_PARAMETER
+          baseVariable:
+            widgetClass:
+              paramIdentifier:
+                name: treinoRefParaExercicio
+                key: soivp3
+          nodeKeyRef:
+            key: Scaffold_5payxi5j
+    widgetClassNodeKeyRef:
+      key: Scaffold_3o43ah6l
+  isNavigateBack: false
+  pageNodeKeyRef:
+    key: Scaffold_3o43ah6l
+key: 9jf3rmfh

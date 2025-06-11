@@ -1,0 +1,16 @@
+database:
+  postgresAction:
+    tableIdentifier:
+      name: imagem
+    insert: {}
+    data:
+      updates:
+        - fieldIdentifier:
+            name: user_id
+          value:
+            variable:
+              source: FIREBASE_AUTH_USER
+              baseVariable:
+                auth:
+                  property: USER_ID
+key: i59d4jie

@@ -1,0 +1,26 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        photo_url:
+          fieldIdentifier:
+            name: photo_url
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                actionType: UPLOAD_DATA_URL
+                actionKeyRef:
+                  key: mic1cwlm
+            nodeKeyRef:
+              key: Button_5465tq03
+    reference:
+      source: FIRESTORE_REQUEST
+      baseVariable:
+        firestore: {}
+      operations:
+        - accessDocumentField:
+            documentProperty: REFERENCE
+      nodeKeyRef:
+        key: Container_n9etpjbi
+key: 26stwqep

@@ -1,0 +1,51 @@
+node:
+  key: Scaffold_d4g0myek
+  body:
+    key: Column_i1sf6d02
+    children:
+      - key: Container_08l5plj7
+      - key: Container_p6695ztd
+        children:
+          - key: Column_3odjgkf5
+            children:
+              - key: Column_862gi8p0
+                children:
+                  - key: Icon_jt7ire1e
+                  - key: Text_64wpqi9o
+                  - key: Container_rbof0dlp
+                    children:
+                      - key: Column_xc5xnhud
+                        children:
+                          - key: ListView_j16yknnd
+                            children:
+                              - key: Container_ctgkt56r
+                                children:
+                                  - key: Row_sklq5qjk
+                                    children:
+                                      - key: Container_9ezuvkzc
+                                        children:
+                                          - key: Image_vnlk1lc7
+                                      - key: Container_b7ozhy5l
+                                        children:
+                                          - key: Column_13b2tk7w
+                                            children:
+                                              - key: Text_09td4lc8
+                                              - key: Text_xgeuls1q
+                                              - key: Text_w47ef6od
+                                              - key: Row_yw45yr8p
+                                                children:
+                                                  - key: Icon_o3z35p4l
+                                                  - key: Icon_7qdaeaop
+      - key: Container_pswq7u3y
+        children:
+          - key: Row_xx05xdjy
+            children:
+              - key: Container_mxqzwlf0
+                children:
+                  - key: Icon_gmj3094d
+              - key: Container_dr7sl5rs
+                children:
+                  - key: Icon_2qrloqwn
+              - key: Container_2ew3e2eg
+                children:
+                  - key: Icon_4fzwj0qx

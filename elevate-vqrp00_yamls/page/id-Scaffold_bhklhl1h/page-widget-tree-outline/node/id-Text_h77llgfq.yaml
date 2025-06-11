@@ -1,0 +1,27 @@
+key: Text_h77llgfq
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: LABEL_LARGE
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: Confirmar senha
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    fontWeightValue:
+      inputValue: w500
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 8
+    allValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

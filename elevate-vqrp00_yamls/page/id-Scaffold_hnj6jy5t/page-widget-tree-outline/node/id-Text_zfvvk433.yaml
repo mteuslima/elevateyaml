@@ -1,0 +1,35 @@
+key: Text_zfvvk433
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: BODY_MEDIUM
+    isCustomFont: false
+    selectable: false
+    textValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: titulo
+        nodeKeyRef:
+          key: ListView_jnnevbbf
+    fontSizeValue:
+      inputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: SUCCESS
+    italicValue:
+      inputValue: false
+    fontWeightValue:
+      inputValue: w600
+  padding:
+    topValue:
+      inputValue: 4
+    bottomValue:
+      inputValue: 8
+  expanded:
+    expandedType: FLEXIBLE

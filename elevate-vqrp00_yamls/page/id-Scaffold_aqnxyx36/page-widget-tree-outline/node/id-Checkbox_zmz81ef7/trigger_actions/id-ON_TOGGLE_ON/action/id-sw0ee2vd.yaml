@@ -1,0 +1,12 @@
+database:
+  updateDocument:
+    reference:
+      source: WIDGET_CLASS_PARAMETER
+      baseVariable:
+        widgetClass:
+          paramIdentifier:
+            name: treinoid
+            key: zr65et
+      nodeKeyRef:
+        key: Scaffold_aqnxyx36
+key: sw0ee2vd

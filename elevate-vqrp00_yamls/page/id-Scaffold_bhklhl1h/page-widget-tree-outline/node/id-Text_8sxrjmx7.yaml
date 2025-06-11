@@ -1,0 +1,26 @@
+key: Text_8sxrjmx7
+type: Text
+props:
+  text:
+    fontFamily: Plus Jakarta Sans
+    themeStyle: LABEL_LARGE
+    isCustomFont: false
+    selectable: false
+    textValue:
+      inputValue: Senha
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE
+    fontWeightValue:
+      inputValue: w500
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 8
+    allValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}

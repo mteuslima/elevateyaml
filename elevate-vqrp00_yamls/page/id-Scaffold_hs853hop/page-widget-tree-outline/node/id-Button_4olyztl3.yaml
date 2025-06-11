@@ -1,0 +1,69 @@
+key: Button_4olyztl3
+type: Button
+props:
+  button:
+    text:
+      fontFamily: Plus Jakarta Sans
+      themeStyle: TITLE_SMALL
+      isCustomFont: false
+      textValue:
+        inputValue: Ver detalhes
+      colorValue:
+        inputValue:
+          themeColor: WARNING
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 8
+    innerPadding:
+      type: FF_PADDING_ALL
+      allValue:
+        inputValue: 8
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 148
+      height:
+        pixelsValue:
+          inputValue: 48
+    elevationValue:
+      inputValue: 2
+    fillColorValue:
+      inputValue:
+        themeColor: SUCCESS
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 8
+    showLoadingIndicatorValue:
+      inputValue: true
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 24
+        iconDataValue:
+          inputValue:
+            codePoint: 59291
+            family: MaterialIcons
+            matchTextDirection: true
+            name: arrow_forward_sharp
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 0
+    topValue:
+      inputValue: 0
+    rightValue:
+      inputValue: 0
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

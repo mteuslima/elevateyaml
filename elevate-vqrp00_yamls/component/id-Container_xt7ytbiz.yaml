@@ -1,0 +1,16 @@
+name: edicao_perfil
+description: ""
+params:
+  b0zk9f:
+    identifier:
+      name: idrefperfil
+      key: b0zk9f
+    dataType:
+      scalarType: DocumentReference
+      nonNullable: true
+      subType:
+        collectionIdentifier:
+          name: usuario
+          key: eon3e30h
+node:
+  key: Container_xt7ytbiz

@@ -1,0 +1,21 @@
+key: Icon_oqinfp3j
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: ACCENT_2
+    iconDataValue:
+      inputValue:
+        codePoint: 58136
+        family: MaterialIcons
+        matchTextDirection: false
+        name: home
+  padding: {}
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

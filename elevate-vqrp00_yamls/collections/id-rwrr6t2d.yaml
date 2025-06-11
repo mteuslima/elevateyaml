@@ -1,0 +1,39 @@
+identifier:
+  name: treinos
+  key: rwrr6t2d
+fields:
+  titulo:
+    identifier:
+      name: titulo
+    dataType:
+      scalarType: String
+  descricao:
+    identifier:
+      name: descricao
+    dataType:
+      scalarType: String
+  criado_em:
+    identifier:
+      name: criado_em
+    dataType:
+      scalarType: DateTime
+  usuarioRef:
+    identifier:
+      name: usuarioRef
+    dataType:
+      scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: usuario
+          key: eon3e30h
+  concluido:
+    identifier:
+      name: concluido
+    dataType:
+      scalarType: Boolean
+  imagemtrei:
+    identifier:
+      name: imagemtrei
+    dataType:
+      scalarType: ImagePath
+description: ""

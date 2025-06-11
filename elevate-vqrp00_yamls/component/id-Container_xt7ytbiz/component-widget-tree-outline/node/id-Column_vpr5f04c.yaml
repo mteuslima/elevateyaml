@@ -1,0 +1,38 @@
+key: Column_vpr5f04c
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: false
+  padding:
+    leftValue:
+      inputValue: 8
+    rightValue:
+      inputValue: 8
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: EASE_IN_OUT
+        fade:
+          begin:
+            inputValue:
+              serializedValue: "0"
+          end:
+            inputValue:
+              serializedValue: "1"
+        delay:
+          inputValue:
+            serializedValue: "0"
+        duration:
+          inputValue:
+            serializedValue: "600"
+    applyInitialState: true
+valueKey: {}

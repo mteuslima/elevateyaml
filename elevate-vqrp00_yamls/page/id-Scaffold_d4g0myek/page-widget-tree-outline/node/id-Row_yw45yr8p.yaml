@@ -1,0 +1,11 @@
+key: Row_yw45yr8p
+type: Row
+props:
+  row:
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

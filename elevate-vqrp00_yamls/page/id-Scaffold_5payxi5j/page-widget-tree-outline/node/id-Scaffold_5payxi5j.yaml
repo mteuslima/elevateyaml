@@ -1,0 +1,40 @@
+key: Scaffold_5payxi5j
+type: Scaffold
+props:
+  scaffold:
+    safeArea: false
+    navBarItem:
+      navIcon:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            value: "4288585374"
+        iconDataValue:
+          inputValue:
+            codePoint: 61703
+            family: MaterialIcons
+            matchTextDirection: false
+            name: home_outlined
+      navActiveIcon:
+        sizeValue:
+          inputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY
+        iconDataValue:
+          inputValue:
+            codePoint: 58136
+            family: MaterialIcons
+            matchTextDirection: false
+            name: home
+      show: false
+      differentActiveIcon: false
+      label:
+        textValue:
+          inputValue: Home
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+name: cadastrar_exercicio

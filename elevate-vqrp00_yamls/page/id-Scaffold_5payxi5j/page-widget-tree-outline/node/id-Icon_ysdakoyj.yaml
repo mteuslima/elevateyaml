@@ -1,0 +1,26 @@
+key: Icon_ysdakoyj
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: WARNING
+    iconDataValue:
+      inputValue:
+        codePoint: 57415
+        family: MaterialIcons
+        matchTextDirection: false
+        name: add
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

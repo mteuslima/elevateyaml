@@ -1,0 +1,26 @@
+database:
+  updateDocument:
+    write:
+      updates:
+        imagemtrei:
+          fieldIdentifier:
+            name: imagemtrei
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                actionType: UPLOAD_DATA_URL
+                actionKeyRef:
+                  key: gqgdduzo
+            nodeKeyRef:
+              key: Button_gw9w0bwb
+    reference:
+      source: FIRESTORE_REQUEST
+      baseVariable:
+        firestore: {}
+      operations:
+        - accessDocumentField:
+            documentProperty: REFERENCE
+      nodeKeyRef:
+        key: Column_tudzvze5
+key: braswnwu

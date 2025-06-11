@@ -1,0 +1,21 @@
+key: Column_htine17z
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    crossAxisAlignment: cross_axis_start
+    primary: true
+    listSpacing:
+      spacingValue:
+        inputValue: 3.5
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

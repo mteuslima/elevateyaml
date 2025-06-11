@@ -1,0 +1,37 @@
+rootAction:
+  key: gsikbkhw
+  conditionActions:
+    falseAction:
+      key: v72lk1ip
+      action:
+        key: 6ufu4sed
+      followUpAction:
+        key: gzt6tnwa
+        action:
+          key: bze9jeky
+    trueActions:
+      - condition:
+          variable:
+            source: FUNCTION_CALL
+            functionCall:
+              values:
+                - variable:
+                    source: GLOBAL_PROPERTIES
+                    baseVariable:
+                      globalProperties:
+                        property: IS_LIGHT_MODE
+                - inputValue:
+                    serializedValue: "true"
+              condition:
+                relation: EQUAL_TO
+        trueAction:
+          key: fdwo4hhu
+          action:
+            key: 3gbh9c2j
+          followUpAction:
+            key: 8gb8h74s
+            action:
+              key: egapyvs3
+    hasMultiConditions: false
+trigger:
+  triggerType: ON_TAP
